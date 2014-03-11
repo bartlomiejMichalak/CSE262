@@ -1,0 +1,1 @@
+public class TestDriver{public static void main (String args[]){ Parser parser = new Parser("SELECT c1,c2 FROM t2 WHERE c1=2,c2=3"); parser.run(); }}

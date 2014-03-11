@@ -1,0 +1,24 @@
+<Query>
+	<Keyword>SELECT</Keyword>
+	<IDList>
+		<ID>c1</ID>
+		<Comma>,</Comma>
+		<ID>c2</ID>
+	</IDList>
+	<Keyword>FROM</Keyword>
+	<IDList>
+		<ID>t1</ID>
+		<Comma>,</Comma>
+		<ID>t2</ID>
+	</IDList>
+	<Keyword>WHERE</Keyword>
+	<CondList>
+		<Cond>
+			<ID>c3</ID>
+			<Operator>=</Operator>
+			<Term>
+				<Int>7</Int>
+			</Term>
+		</Cond>
+	</CondList>
+</Query>

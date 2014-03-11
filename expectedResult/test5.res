@@ -1,0 +1,22 @@
+<Query>
+	<Keyword>SELECT</Keyword>
+	<IDList>
+		<ID>c1</ID>
+		<Comma>,</Comma>
+		<ID>c2</ID>
+	</IDList>
+	<Keyword>FROM</Keyword>
+	<IDList>
+		<ID>t2</ID>
+	</IDList>
+	<Keyword>WHERE</Keyword>
+	<CondList>
+		<Cond>
+			<ID>c1</ID>
+			<Operator>=</Operator>
+			<Term>
+				<Int>2</Int>
+			</Term>
+		</Cond>
+	</CondList>
+Syntax error: expecting: EOI; saw: Comma

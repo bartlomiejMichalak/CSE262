@@ -1,0 +1,42 @@
+test 1
+Success.
+test 2
+Success.
+test 3
+Success.
+test 4
+Failure. Grade cannot be determined
+<Query>
+	<Keyword>SELECT</Keyword>
+	<IDList>
+		<ID>col</ID>
+	</IDList>
+	<Keyword>FROM</Keyword>
+	<IDList>
+		<ID>tab1</ID>
+		<Comma>,</Comma>
+		<ID>tab2</ID>
+		<Comma>,</Comma>
+test 5
+Failure. Grade cannot be determined
+<Query>
+	<Keyword>SELECT</Keyword>
+	<IDList>
+		<ID>c1</ID>
+		<Comma>,</Comma>
+		<ID>c2</ID>
+	</IDList>
+	<Keyword>FROM</Keyword>
+	<IDList>
+		<ID>t2</ID>
+	</IDList>
+	<Keyword>WHERE</Keyword>
+	<CondList>
+		<Cond>
+			<ID>c1</ID>
+			<Operator>=</Operator>
+			<Term>
+				<Int>2</Int>
+			</Term>
+		</Cond>
+	</CondList>

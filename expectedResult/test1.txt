@@ -1,0 +1,16 @@
+<Query>
+	<Keyword>SELECT</Keyword>
+	<IDList>
+		<ID>col1</ID>
+		<Comma>,</Comma>
+		<ID>c99</ID>
+	</IDList>
+	<Keyword>FROM</Keyword>
+	<IDList>
+		<ID>tab1</ID>
+		<Comma>,</Comma>
+		<ID>t2</ID>
+		<Comma>,</Comma>
+		<ID>t9</ID>
+	</IDList>
+</Query>
